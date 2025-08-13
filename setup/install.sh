@@ -38,11 +38,5 @@ sudo make -j$(nproc)
 sudo make install
 sudo make samples
 sudo make config
-
-echo "🚀 Starting Asterisk..."
-sudo systemctl enable asterisk
-sudo systemctl start asterisk
-
-echo "✅ Done! Run 'sudo asterisk -rvvv' to access the CLI."
-
+echo "✅ Done! Run 'sudo make basic-pbx' for a quick get started configuration."
 
